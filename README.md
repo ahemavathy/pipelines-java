@@ -1,4 +1,4 @@
-
+[![Build Status](https://dev.azure.com/hemaAzDO/Beginner/_apis/build/status/ahemavathy.pipelines-java?branchName=master)](https://dev.azure.com/hemaAzDO/Beginner/_build/latest?definitionId=2&branchName=master)
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
