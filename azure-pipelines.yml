@@ -6,15 +6,10 @@
 trigger:
 - master
 
-strategy:
-  matrix:
-    linux:
-      imageName: "ubuntu-latest"
-
 pool:
-  vmImage: $(imageName)
+  vmImage: ubuntu-16.04
 
-container:  ubuntu:latest
+container:  ubuntu:16.04
 
 steps:
 - script: printenv
