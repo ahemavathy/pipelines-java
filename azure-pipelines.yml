@@ -14,7 +14,10 @@ strategy:
 pool:
   vmImage: $(imageName)
 
+container:  ubuntu:latest
+
 steps:
+- script: printenv
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
