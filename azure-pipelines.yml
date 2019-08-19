@@ -9,10 +9,7 @@ trigger:
 pool:
   vmImage: ubuntu-16.04
 
-container:  ubuntu:16.04
-
 steps:
-- script: printenv
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
