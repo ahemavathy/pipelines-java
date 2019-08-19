@@ -7,9 +7,10 @@ trigger:
 - master
 
 pool:
-  vmImage: Hosted Ubuntu 1604
+  vmImage: ubuntu-latest
 
 steps:
+- script: printenv
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
